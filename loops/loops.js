@@ -25,7 +25,7 @@
 // forEach doesn't return a value.
 // We cannot nest multiple forEach
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let arr = [1, 2, 3, 4, 5];
 // printValue is considered as a callback function
 // let printValue = function (i){
 //     console.log(i)
@@ -47,12 +47,16 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // console.log(modifiedArray)
 
 // filter
-console.log(arr)
-let modifiedArray = arr.map((i) => {
-    return i + 5;
-  }).filter((j)=>{
-    return j > 10
-  })
-console.log(modifiedArray)
+// console.log(arr)
+// let modifiedArray = arr.map((i) => {
+//     return i + 5;
+//   }).filter((j)=>{
+//     return j > 10
+//   })
+// console.log(modifiedArray)
 
 // reduce
+// let resultedArray = arr.reduce((acc, curr)=>{
+//     return acc * curr
+// }, 1)
+// console.log(resultedArray)
